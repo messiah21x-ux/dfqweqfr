@@ -4,12 +4,12 @@ const options = {
     host: 'Bluelightmine.aternos.me',        
     port: 51069,                            
     username: 'BedrockBot',                 
-    version: '1.26.20',                     
+    version: '1.26.52.3',                     
     offline: true                           
 };
 
 function createBot() {
-    console.log("جاري تشغيل البوت والاتصال بسيرفر بيدروك (إصدار 1.26.20)...");
+    console.log("جاري تشغيل البوت والاتصال بسيرفر بيدروك (إصدار 1.26.52.3)...");
 
     try {
         const client = bedrock.createClient(options);
